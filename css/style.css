@@ -64,24 +64,40 @@
     background-color: gray;
 }
 
-.logo-psplus {
-    height: 50px;
-    width: 300px;
+.psnow-section {
+    background-color: #161c3b;
 }
 
 
 
 
-
-
+footer {
+    background-color: #00439c;
+    color: #fff;
+ 
+}
 
 .logo-ps-footer {
-    background-color: darkcyan;
     width: 50px;
     height: 50px;
+    background: url(../img/ps-footer.svg) no-repeat;
+    background-size: contain;
 }
 
-.test {
+.links-group {
     display: flex;
     flex-direction: column;
 }
+
+.vintage-sony img {
+    width: 100px;
+}
+
+.links-group a {
+    text-decoration: none;
+}
+
+footer a {
+    color: #fff;
+}
+
