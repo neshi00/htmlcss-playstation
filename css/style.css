@@ -2,7 +2,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.page {
+.page-ps {
     position: relative;
 }
 
@@ -27,12 +27,16 @@ header {
     font-weight: bold;
     display: inline-block;
     text-align: center;
+    outline: 2px solid transparent;
 }
 
 img {
     border-radius: 20px;
 }
 
+.navbar-light .navbar-nav .nav-link.active:hover {
+    color: #2c64e6;
+}
 
 
 
@@ -60,9 +64,17 @@ img {
     font-weight: bold;
 }
 
-.navbar-collapse button {
+.button-nav {
     background-color: #363636;
     color: #fff;
+}
+
+.button-nav:hover {
+    outline: 2px solid #363636;
+    border: 1px solid white;
+    color: #fff;
+    transition: all .3s;
+    opacity: 0.9;
 }
 
 /* jumbo returnal */
@@ -75,20 +87,32 @@ img {
     width: 50%;
 }
 
-.banner-area {
+.banner-area {   /* valido per entrambi i jumbo */
    display: flex;
    flex-direction: column;
    justify-content: flex-end;
    height: 100vh;
 }
 
-.banner-area button {
+.banner-area button {   
     width: 150px;
     background-color: #cd3d0f;
     color: #fff;
+    border: 1px solid #cd3d0f;
+}
+
+.banner-area button:hover {
+    outline: 2px solid #cd3d0f;
+    border: 1px solid black;
+    transition: all .3s;
 }
 
 /* area ps5 */
+
+.old-releases-games img:hover {
+    transform: translateY(-10px);
+    transition: all .5s;
+}
 
 .no-limits {
     color: #0f7ad0;
@@ -97,7 +121,22 @@ img {
 .console-ps5 button {
     background-color: #2c64e6;
     color: #fff;
-    border: none;
+    outline: 2px solid transparent;
+}
+
+.console-ps5 button:hover {
+    outline: 2px solid #2c64e6;
+    border: 1px solid #fff;
+    transition: all .3s;
+}
+
+.opacity-custom {
+    opacity: 0.7;
+}
+
+.device-ps5 img:hover {
+    opacity: 1;
+    transition: all .3s;
 }
 
 /* jumbo it takes two */
@@ -117,10 +156,11 @@ img {
     color: #fff;
 }
 
-.text-area-ps4 h1 {
-    font-size: 30px;
+.area-ps4 button:hover {
+    outline: 2px solid #2c64e6;
+    border: 1px solid #fff;
+    transition: all .3s;
 }
-
 
 /* ps plus section */
 .psplus-section {
@@ -132,10 +172,22 @@ img {
     color: #2f66e6;
 }
 
+.psplus-section button:hover {
+    outline: 2px solid #d9dadc;
+    border: 1px solid #2f66e6;
+    transition: all .3s;
+}
+
 /* ps now section */
 .psnow-section {
     background-color: #161c3b;
     color: #fff;
+}
+
+.psnow-section button:hover {
+    outline: 2px solid #fff;
+    border: 1px solid #161c3b;
+    transition: all .3s;
 }
 
 /* social section */
