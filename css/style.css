@@ -23,7 +23,6 @@ header {
 }
 
 .custom-button {
-    /* border: 1px solid black; */
     border-radius: 20px;
     font-weight: bold;
     display: inline-block;
@@ -89,6 +88,8 @@ img {
     color: #fff;
 }
 
+/* area ps5 */
+
 .no-limits {
     color: #0f7ad0;
 }
@@ -126,10 +127,23 @@ img {
     background-color: gray;
 }
 
+.psplus-section button {
+    background-color: #d9dadc;
+    color: #2f66e6;
+}
+
 /* ps now section */
 .psnow-section {
     background-color: #161c3b;
+    color: #fff;
 }
+
+/* social section */
+.container-social {
+    width: 35%;
+    margin: 0 auto;
+}
+
 
 /* footer section */
 footer {
